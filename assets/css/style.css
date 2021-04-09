@@ -1,67 +1,8 @@
-/* =======================================================================
-Template Name: B-Space Single Page Template
-Author:  SmartEye Technologies
-Author URI: www.smart-eye.in
-Version: 1.0
-coder name:Prabin Raja
-Description: This Template is created for web template
-
-======================================================================= */
-
-
-/* ===================================== Import Less ================================== */
-
 @font-face {
     font-family: robot-slab;
     src: url('../fonts/RobotoSlab-Regular.ttf');
     src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
 }
-
-.blog-box1 .cdfik li {
-    float: left;
-    padding: 11.5px;
-    text-align: center;
-    font-size: 13px;
-    border-bottom: 1px solid #ededed;
-    border-right: 1px solid #ededed;
-    border-top: 1px solid #ededed;
-}
-
-.blog-box1 .sd-op {
-    background-color: #f58220;
-    text-align: center;
-    color: #FFF;
-    padding-bottom: 10px;
-    padding-top: 5px;
-}
-
-.blog-box1 .cdfik {
-    width: 100%;
-}
-
-.blog-box1 .pof-det {
-    padding: 10px;
-    padding-left: 10px;
-    padding-left: 60px;
-}
-
-.blog-box1 .pof-det b {
-    font-size: 13px;
-}
-
-.blog-box1 .pof-det p {
-    font-size: 13px;
-    text-align: justify;
-    text-indent: 20px;
-    margin-top: 5px;
-}
-
-.blog-box1 .sd-op b {
-    font-size: 22px;
-}
-
-
-/* ===================================== Basic CSS ================================== */
 
 * {
     margin: 0px;
@@ -456,3 +397,5 @@ body {
     padding: 5px;
     margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 770px) {}
