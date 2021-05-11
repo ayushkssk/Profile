@@ -1,3 +1,7 @@
+:root {
+    --theme: #e2e97f;
+}
+
 @font-face {
     font-family: robot-slab;
     src: url('../fonts/RobotoSlab-Regular.ttf');
@@ -12,7 +16,7 @@
 
 img {
     max-width: 100%;
-    background-color: #7f298c;
+    background-color: var(--theme);
 }
 
 a {
@@ -125,7 +129,7 @@ body {
 }
 
 .resume-container {
-    background-color: #7f298c;
+    background-color: var(--theme);
     min-height: 100%;
     padding-top: 3.3%;
     overflow: auto;
@@ -145,7 +149,7 @@ body {
 }
 
 .resume-container .resume-box .basic-profile .baci-cc {
-    background-color: #7f298c;
+    background-color: var(--theme);
 }
 
 @media screen and (max-width: 991px) {
@@ -157,7 +161,7 @@ body {
 .resume-container .resume-box .basic-profile .basic-detail {
     padding: 10px;
     text-align: center;
-    background-color: #7f298c;
+    background-color: var(--theme);
     color: #FFF;
     padding-bottom: 15px;
 }
@@ -219,7 +223,7 @@ body {
 .resume-container .resume-box .detail-profile .detal-jumbo {
     padding: 20px;
     background-color: #EEEEEE;
-    border-left: 4px solid #7f298c;
+    border-left: 4px solid var(--theme);
     border-radius: 4px;
 }
 
@@ -284,7 +288,7 @@ body {
 .resume-container .resume-box .detail-profile .jumbo-address {
     padding: 20px 40px;
     background-color: #EEEEEE;
-    border-left: 4px solid #7f298c;
+    border-left: 4px solid var(--theme);
 }
 
 @media screen and (max-width: 483px) {
